@@ -1,7 +1,7 @@
 # Taller de JavaScript
 
 ***
-https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/10.png
+
 ## Ejercicio 2
 
 ```javascript
@@ -13,7 +13,7 @@ var suma = Number(primero) + Number(segundo)
 console.log("La suma de ambos números: " + suma)
 ```
 
-![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/2.png)
+![ejercicio en consola](capturas/2.png)
 
 ## Ejercicio 4
 
