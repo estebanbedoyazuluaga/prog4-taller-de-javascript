@@ -1,7 +1,7 @@
 # Taller de JavaScript
 
 ***
-
+https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/10.png
 ## Ejercicio 2
 
 ```javascript
@@ -13,6 +13,8 @@ var suma = Number(primero) + Number(segundo)
 console.log("La suma de ambos números: " + suma)
 ```
 
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/2.png)
+
 ## Ejercicio 4
 
 ```javascript
@@ -23,6 +25,8 @@ console.log(lt)
 var consumo = Number(km) / Number(lt) 
 console.log("El consumo por kilómetro es de: " + consumo)
 ```
+
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/4.png)
 
 ## Ejercicio 6
 
@@ -37,6 +41,8 @@ var promedio = (primero + segundo + tercero) / 3
 console.log("El promedio de los números es: " + promedio)
 ```
 
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/6.png)
+
 ## Ejercicio 8
 
 ```javascript
@@ -47,6 +53,8 @@ console.log(segunda)
 console.log(primera + " " + segunda)
 ```
 
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/8.png)
+
 ## Ejercicio 10
 
 ```javascript
@@ -55,6 +63,8 @@ console.log(shows)
 var mas_de_3 = shows > 3
 console.log(mas_de_3)
 ```
+
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/10.png)
 
 ## Ejercicio 11
 
@@ -68,6 +78,8 @@ fecha /= 100
 var dd = Math.trunc(fecha)
 console.log(dd + "/" + mm + "/" + aaaa)
 ```
+
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/12.png)
 
 ## Ejearcicio 12
 
@@ -87,6 +99,8 @@ var numpar = (str.length % 2) == 0
 console.log(numpar)
 ```
 
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/14.png)
+
 ## Ejercicio 16
 
 ```javascript
@@ -99,6 +113,8 @@ var ultima = str1[str1.length - 1] == str2[str2.length - 1]
 var out = primera || segunda
 console.log(out)
 ```
+
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/16.png)
 
 ## Ejercicio 18
 
@@ -113,7 +129,9 @@ if (num2 > num1)
 console.log(mayor + " es mayor")
 ```
 
-## Ejercicio 18
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/18.png)
+
+## Ejercicio 20
 
 ```javascript
 var num1 = Number(prompt("Ingrese un número: "))
@@ -129,3 +147,5 @@ if (num3 < num2)
     menor = num3
 console.log(menor + " es menor")
 ```
+
+![ejercicio en consola](https://github.com/estebanbedoyazuluaga/prog4-taller-de-javascript/blob/master/capturas/20.png)
