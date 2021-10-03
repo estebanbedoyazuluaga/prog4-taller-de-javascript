@@ -46,14 +46,66 @@ var mas_de_3 = shows > 3
 console.log(mas_de_3)
 ```
 
-## Ejercicio 12
+## Ejercicio 11
 
 ```javascript
 var fecha = Number(prompt("Ingrese la fecha en formato DDMMAAAA: "))
-var aaaa = fecha % 10000
+var aaaa = Math.trunc(fecha % 10000)
 fecha /= 10000
-var mm = fecha % 100
+var mm = Math.trunc(fecha % 100)
 fecha /= 100
-var dd = fecha
+var dd = Math.trunc(fecha)
 console.log(dd + "/" + mm + "/" + aaaa)
+```
+
+## Ejearcicio 12
+
+```javascript
+var num = Number(prompt("Ingrese un número: "))
+var numpar = (num % 2) == 0
+console.log(numpar)
+```
+
+## Ejercicio 14
+
+```javascript
+var str = prompt("Ingrese una frase: ")
+var numpar = (str.length % 2) == 0
+console.log(numpar)
+```
+
+## Ejercicio 16
+
+```javascript
+var str1 = prompt("Ingrese el primer nombre: ")
+var str2 = prompt("Ingrese el segundo nombre: ")
+var primera = str1[0] == str2[0]
+var ultima = str1[str1.length - 1] == str2[str2.length - 1]
+var out = primera || segunda
+console.log(out)
+```
+
+## Ejercicio 18
+
+```javascript
+var num1 = Number(prompt("Ingrese un número: "))
+var mayor = num1
+var num2 = Number(prompt("Ingrese otro número: "))
+if (num2 > num1)
+    mayor = num2
+console.log(mayor + " es mayor")
+```
+
+## Ejercicio 18
+
+```javascript
+var num1 = Number(prompt("Ingrese un número: "))
+var menor = num1
+var num2 = Number(prompt("Ingrese otro número: "))
+if (num2 < num1)
+    menor = num2
+var num3 = Number(prompt("Ingrese otro número: "))
+if (num3 < num2)
+    menor = num3
+console.log(menor + " es menor")
 ```
